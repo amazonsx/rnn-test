@@ -1,0 +1,12 @@
+This code provides two kinds of training. 
+A. One uses data from input.csv.
+B. One uses data from y = 10x+5.
+
+The code defaults to run in case A.
+
+To run code in case B, uncomment block from line 125 to line 127.
+
+Thank you very much for your help.
+
+split_data: split input and output data from given data series.
+get_batches: organize input data or output data according to shape [n_batches, n_timesteps, n_input/n_output]
